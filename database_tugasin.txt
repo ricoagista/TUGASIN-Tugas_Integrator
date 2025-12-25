@@ -1,0 +1,50 @@
+1|Interaksi Manusia dan Komputer|Tugas Besar|2025-12-17|2025-12-23|SUDAH
+2|Jaringan Komputer|Presentasi|2025-12-18|2025-12-25|SUDAH
+3|Algoritma Pemrograman|Latihan Array|2025-12-20|2025-12-27|BELUM
+4|Basis Data|Desain ERD|2025-12-21|2025-12-28|BELUM
+5|Sistem Operasi|Manajemen Memori|2025-12-22|2025-12-30|BELUM
+6|Struktur Data|Binary Search Tree|2025-12-23|2025-12-31|SUDAH
+7|Pemrograman Web|Frontend Design|2025-12-24|2026-01-05|BELUM
+8|Keamanan Informasi|Enkripsi AES|2025-12-25|2026-01-06|BELUM
+9|Kecerdasan Buatan|Neural Network|2025-12-26|2026-01-07|SUDAH
+10|Etika Profesi|Makalah Hak Cipta|2025-12-27|2026-01-08|BELUM
+11|Matematika Diskrit|Graph Theory|2025-12-28|2026-01-09|SUDAH
+12|Statistika|Distribusi Normal|2025-12-29|2026-01-10|BELUM
+13|Arsitektur Komputer|Instruksi MIPS|2025-12-30|2026-01-11|BELUM
+14|Rekayasa Perangkat Lunak|Software Req Specification|2026-01-01|2026-01-15|SUDAH
+15|Cloud Computing|Deploy AWS|2026-01-02|2026-01-16|BELUM
+16|Pemrograman Mobile|Widget Flutter|2026-01-03|2026-01-17|BELUM
+17|Sistem Terdistribusi|RPC Implementation|2026-01-04|2026-01-18|SUDAH
+18|Grafika Komputer|Render 3D|2026-01-05|2026-01-19|BELUM
+19|Bahasa Inggris|Essay Technology|2026-01-06|2026-01-20|SUDAH
+20|Pendidikan Agama|Resume Materi|2026-01-07|2026-01-21|SUDAH
+21|Pancasila|Analisis Kasus|2026-01-08|2026-01-22|BELUM
+22|Metode Numerik|Iterasi Jacobi|2026-01-09|2026-01-23|BELUM
+23|Pemrograman Java|Swing GUI|2026-01-10|2026-01-24|SUDAH
+24|Data Mining|Clustering K-Means|2026-01-11|2026-01-25|BELUM
+25|Interaksi Manusia dan Komputer|User Persona|2026-01-12|2026-01-26|SUDAH
+26|Jaringan Komputer|Subnetting|2026-01-13|2026-01-27|BELUM
+27|Basis Data|SQL Query Optimization|2026-01-14|2026-01-28|SUDAH
+28|Sistem Operasi|Shell Scripting|2026-01-15|2026-01-29|BELUM
+29|Pemrograman Web|Backend API Nodejs|2026-01-16|2026-01-30|BELUM
+30|Algoritma Pemrograman|Sorting Algorithm|2026-01-17|2026-02-01|SUDAH
+31|Kecerdasan Buatan|Fuzzy Logic|2026-01-18|2026-02-02|BELUM
+32|Matematika Diskrit|Combinatorics|2026-01-19|2026-02-03|SUDAH
+33|Keamanan Informasi|Digital Signature|2026-01-20|2026-02-04|BELUM
+34|Struktur Data|Stack and Queue|2026-01-21|2026-02-05|SUDAH
+35|Rekayasa Perangkat Lunak|Class Diagram|2026-01-22|2026-02-06|BELUM
+36|Cloud Computing|Docker Containerization|2026-01-23|2026-02-07|BELUM
+37|Pemrograman Mobile|Firebase Integration|2026-01-24|2026-02-08|SUDAH
+38|Sistem Terdistribusi|Load Balancing|2026-01-25|2026-02-09|BELUM
+39|Grafika Komputer|Transformation 2D|2026-01-26|2026-02-10|SUDAH
+40|Statistika|Regression Analysis|2026-01-27|2026-02-11|BELUM
+41|Pemrograman Java|Multi-threading|2026-01-28|2026-02-12|BELUM
+42|Data Mining|Association Rules|2026-01-29|2026-02-13|SUDAH
+43|Basis Data|Normalization 3NF|2026-01-30|2026-02-14|BELUM
+44|Pemrograman Web|Responsive Grid|2026-01-31|2026-02-15|SUDAH
+45|Sistem Operasi|Deadlock Prevention|2026-02-01|2026-02-16|BELUM
+46|Arsitektur Komputer|Pipeline Execution|2026-02-02|2026-02-17|BELUM
+47|Interaksi Manusia dan Komputer|High Fidelity Prototype|2026-02-03|2026-02-18|SUDAH
+48|Jaringan Komputer|Routing OSPF|2026-02-04|2026-02-19|BELUM
+49|Struktur Data|AVL Tree|2026-02-05|2026-02-20|SUDAH
+50|Algoritma Pemrograman|Dynamic Programming|2026-02-06|2026-02-21|BELUM

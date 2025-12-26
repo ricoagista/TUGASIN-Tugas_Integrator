@@ -1,4 +1,4 @@
-# 📝 TUGASIN - Task Manager Mahasiswa
+# 📝 TUGASIN - Tugas Integrator
 
 **TUGASIN** adalah aplikasi manajemen tugas berbasis desktop yang dirancang khusus untuk mahasiswa guna memantau progres tugas kuliah dengan gaya visual yang modern (Gen Z Aesthetic). Aplikasi ini dibangun menggunakan **Java Swing** dengan arsitektur **Object-Oriented Programming (OOP)** yang terstruktur dan mengimplementasikan operasi **CRUD** lengkap dengan penyimpanan data permanen.
 

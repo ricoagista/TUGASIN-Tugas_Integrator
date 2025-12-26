@@ -5,7 +5,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
 public class SidebarPanel extends JPanel {
-    public SidebarPanel(CardLayout cardLayout, JPanel mainPanel, ListDataPanel listDataPanel) {
+    public SidebarPanel(CardLayout cardLayout, JPanel mainPanel, ListDataPanel listDataPanel, HistoryPanel historyPanel) {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
         setBackground(Main.COLOR_CARD);
         setPreferredSize(new Dimension(220, 0));
@@ -17,14 +17,16 @@ public class SidebarPanel extends JPanel {
         add(logo);
         add(Box.createRigidArea(new Dimension(0, 50)));
 
-        add(createNavBtn("Dashboard", cardLayout, mainPanel, listDataPanel));
+        add(createNavBtn("Dashboard", cardLayout, mainPanel, listDataPanel, historyPanel));
         add(Box.createRigidArea(new Dimension(0, 10)));
-        add(createNavBtn("Daftar Tugas", cardLayout, mainPanel, listDataPanel));
+        add(createNavBtn("Daftar Tugas", cardLayout, mainPanel, listDataPanel, historyPanel));
         add(Box.createRigidArea(new Dimension(0, 10)));
-        add(createNavBtn("Input Tugas", cardLayout, mainPanel, listDataPanel));
+        add(createNavBtn("Input Tugas", cardLayout, mainPanel, listDataPanel, historyPanel));
+        add(Box.createRigidArea(new Dimension(0, 10)));
+        add(createNavBtn("Laporan", cardLayout, mainPanel, listDataPanel, historyPanel));
     }
 
-    private JButton createNavBtn(String text, CardLayout cardLayout, JPanel mainPanel, ListDataPanel listDataPanel) {
+    private JButton createNavBtn(String text, CardLayout cardLayout, JPanel mainPanel, ListDataPanel listDataPanel, HistoryPanel historyPanel) {
         JButton btn = new JButton(text);
         btn.setFont(Main.FONT_BOLD);
         btn.setForeground(new Color(120, 120, 140));
@@ -34,9 +36,8 @@ public class SidebarPanel extends JPanel {
         btn.setAlignmentX(Component.LEFT_ALIGNMENT);
         btn.setCursor(new Cursor(Cursor.HAND_CURSOR));
         btn.addActionListener(e -> {
-            if (text.equals("Daftar Tugas")) {
-                listDataPanel.refreshTable("SEMUA");
-            }
+            if (text.equals("Daftar Tugas")) listDataPanel.refreshTable("SEMUA");
+            if (text.equals("Laporan")) historyPanel.updateStats();
             cardLayout.show(mainPanel, text);
         });
         return btn;

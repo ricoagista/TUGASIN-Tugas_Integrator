@@ -84,21 +84,30 @@ public class InputPanel extends JPanel {
     }
 
     private void createData() {
-        if (txtMatkul.getText().isEmpty()) return;
-        int nextID = DataManager.getNextID(listData);
-        String[] data = {String.valueOf(nextID), txtMatkul.getText(), txtTugas.getText(),
-                txtTglDiberikan.getText(), txtDeadline.getText(), "BELUM"};
-        listData.add(data);
-        DataManager.saveData(database, listData);
+        try {
+            // Validasi Input
+            if (txtMatkul.getText().trim().isEmpty() || txtTugas.getText().trim().isEmpty() ||
+                    txtTglDiberikan.getText().isEmpty() || txtDeadline.getText().isEmpty()) {
+                throw new IllegalArgumentException("Semua data wajib diisi!");
+            }
 
-        // Clear fields
-        txtMatkul.setText("");
-        txtTugas.setText("");
-        txtTglDiberikan.setText("");
-        txtDeadline.setText("");
+            int nextID = DataManager.getNextID(listData);
+            String[] data = {String.valueOf(nextID), txtMatkul.getText(), txtTugas.getText(),
+                    txtTglDiberikan.getText(), txtDeadline.getText(), "BELUM"};
+            listData.add(data);
+            DataManager.saveData(database, listData);
 
-        // Refresh list and switch view
-        listDataPanel.refreshTable("SEMUA");
-        cardLayout.show(mainPanel, "Daftar Tugas");
+            // Clear fields
+            txtMatkul.setText("");
+            txtTugas.setText("");
+            txtTglDiberikan.setText("");
+            txtDeadline.setText("");
+
+            listDataPanel.refreshTable("SEMUA");
+            cardLayout.show(mainPanel, "Daftar Tugas");
+
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, "Kesalahan: " + ex.getMessage(), "Input Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 }

@@ -11,6 +11,7 @@ public class Main extends JFrame {
     private ArrayList<String[]> listData = new ArrayList<>();
     private final File database = new File("database_tugasin.txt");
     private ListDataPanel listDataPanel;
+    private HistoryPanel historyPanel;
 
     // Color Palette
     protected static final Color COLOR_BG = new Color(13, 13, 18);
@@ -37,15 +38,18 @@ public class Main extends JFrame {
         mainPanel = new JPanel(cardLayout);
         mainPanel.setOpaque(false);
 
+        // Inisialisasi Panel
+        historyPanel = new HistoryPanel(listData);
+        listDataPanel = new ListDataPanel(this, listData, database, historyPanel);
+
+        // Daftarkan 4 Halaman (Syarat Modul)
         mainPanel.add(new DashboardPanel(), "Dashboard");
-
-        listDataPanel = new ListDataPanel(this, listData, database);
         mainPanel.add(listDataPanel, "Daftar Tugas");
-
         mainPanel.add(new InputPanel(this, listData, database, cardLayout, mainPanel, listDataPanel), "Input Tugas");
+        mainPanel.add(historyPanel, "Laporan");
 
         setLayout(new BorderLayout());
-        add(new SidebarPanel(cardLayout, mainPanel, listDataPanel), BorderLayout.WEST);
+        add(new SidebarPanel(cardLayout, mainPanel, listDataPanel, historyPanel), BorderLayout.WEST);
         add(mainPanel, BorderLayout.CENTER);
 
         setVisible(true);

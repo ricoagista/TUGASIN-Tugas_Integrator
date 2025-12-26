@@ -1,6 +1,4 @@
-1|Interaksi Manusia dan Komputer|Tugas Besar|2025-12-17|2025-12-23|SUDAH
-2|Jaringan Komputer|Presentasi|2025-12-18|2025-12-25|SUDAH
-3|Algoritma Pemrograman|Latihan Array|2025-12-20|2025-12-27|BELUM
+3|Algoritma Pemrograman|Latihan Array|2025-12-20|2025-12-27|SUDAH
 4|Basis Data|Desain ERD|2025-12-21|2025-12-28|BELUM
 5|Sistem Operasi|Manajemen Memori|2025-12-22|2025-12-30|BELUM
 6|Struktur Data|Binary Search Tree|2025-12-23|2025-12-31|SUDAH
@@ -8,7 +6,6 @@
 8|Keamanan Informasi|Enkripsi AES|2025-12-25|2026-01-06|BELUM
 9|Kecerdasan Buatan|Neural Network|2025-12-26|2026-01-07|SUDAH
 10|Etika Profesi|Makalah Hak Cipta|2025-12-27|2026-01-08|BELUM
-11|Matematika Diskrit|Graph Theory|2025-12-28|2026-01-09|SUDAH
 12|Statistika|Distribusi Normal|2025-12-29|2026-01-10|BELUM
 13|Arsitektur Komputer|Instruksi MIPS|2025-12-30|2026-01-11|BELUM
 14|Rekayasa Perangkat Lunak|Software Req Specification|2026-01-01|2026-01-15|SUDAH
@@ -48,3 +45,4 @@
 48|Jaringan Komputer|Routing OSPF|2026-02-04|2026-02-19|BELUM
 49|Struktur Data|AVL Tree|2026-02-05|2026-02-20|SUDAH
 50|Algoritma Pemrograman|Dynamic Programming|2026-02-06|2026-02-21|BELUM
+51|bhadskj|adskj adsj|2025-12-18|2025-12-27|BELUM

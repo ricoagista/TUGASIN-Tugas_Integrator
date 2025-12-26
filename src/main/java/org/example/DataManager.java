@@ -26,6 +26,7 @@ public class DataManager {
         }
     }
 
+
     public static int getNextID(ArrayList<String[]> listData) {
         int nextID = 1;
         if (!listData.isEmpty()) {
